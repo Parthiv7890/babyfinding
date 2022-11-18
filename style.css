@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.title{
+    margin: 0px;
+    width: 100%;
+}
+canvas{
+    margin-top:30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px grey;
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    from{box-shadow: 10px 10px 10px palevioletred;}
+    to{box-shadow: 10px 10px 10px violet;}
+}
